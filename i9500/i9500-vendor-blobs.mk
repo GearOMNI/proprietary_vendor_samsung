@@ -16,6 +16,8 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/i9500/proprietary/vendor/firmware/es325_fw.bin:system/vendor/firmware/es325_fw.bin \
+    vendor/samsung/i9500/proprietary/vendor/lib/liblvverx_3.18.11.so:system/vendor/lib/liblvverx_3.18.11.so \
+    vendor/samsung/i9500/proprietary/vendor/lib/liblvvetx_3.18.11.so:system/vendor/lib/liblvvetx_3.18.11.so \
     vendor/samsung/i9500/proprietary/vendor/firmware/srp_cga.bin:system/vendor/firmware/srp_cga.bin \
     vendor/samsung/i9500/proprietary/vendor/firmware/srp_data.bin:system/vendor/firmware/srp_data.bin \
     vendor/samsung/i9500/proprietary/vendor/firmware/srp_vliw.bin:system/vendor/firmware/srp_vliw.bin \
