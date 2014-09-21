@@ -75,11 +75,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/i9500/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/i9500/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/samsung/i9500/proprietary/lib/hw/sensors.universal5410.so:system/lib/hw/sensors.universal5410.so \
+	vendor/samsung/i9500/proprietary/lib/hw/sensorshubs.universal5410.so:system/lib/hw/sensorshubs.universal5410.so \
     vendor/samsung/i9500/proprietary/lib/libakm.so:system/lib/libakm.so \
     vendor/samsung/i9500/proprietary/lib/libsensirion_j1.so:system/lib/libsensirion_j1.so \
     vendor/samsung/i9500/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/samsung/i9500/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/i9500/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+	vendor/samsung/i9500/proprietary/vendor/lib/libdivxdrm.so:system/vendor/lib/libdivxdrm.so \
     vendor/samsung/i9500/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/i9500/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/samsung/i9500/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
@@ -105,6 +107,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/i9500/proprietary/etc/wifi/nvram_net.txt_muratafem1:system/etc/wifi/nvram_net.txt_muratafem1 \
     vendor/samsung/i9500/proprietary/etc/wifi/nvram_net.txt_muratafem2:system/etc/wifi/nvram_net.txt_muratafem2 \
     vendor/samsung/i9500/proprietary/etc/wifi/nvram_net.txt_semco3rd:system/etc/wifi/nvram_net.txt_semco3rd \
-    vendor/samsung/i9500/proprietary/etc/wifi/nvram_net.txt_semcosh:system/etc/wifi/nvram_net.txt_semcosh
+    vendor/samsung/i9500/proprietary/etc/wifi/nvram_net.txt_semcosh:system/etc/wifi/nvram_net.txt_semcosh \
+	vendor/samsung/i9500/proprietary/bin/insthk:system/bin/insthk \
+    vendor/samsung/i9500/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
+	vendor/samsung/i9500/proprietary/etc/srm.bin:system/etc/srm.bin
 
     
