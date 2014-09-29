@@ -75,7 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/i9500/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/i9500/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/samsung/i9500/proprietary/lib/hw/sensors.universal5410.so:system/lib/hw/sensors.universal5410.so \
-	vendor/samsung/i9500/proprietary/lib/hw/sensorshubs.universal5410.so:system/lib/hw/sensorshubs.universal5410.so \
+	vendor/samsung/i9500/proprietary/lib/hw/sensorhubs.universal5410.so:system/lib/hw/sensorhubs.universal5410.so \
     vendor/samsung/i9500/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
     vendor/samsung/i9500/proprietary/lib/libakm.so:system/lib/libakm.so \
     vendor/samsung/i9500/proprietary/lib/libsensirion_j1.so:system/lib/libsensirion_j1.so \
