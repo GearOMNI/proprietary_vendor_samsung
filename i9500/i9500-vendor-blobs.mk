@@ -82,7 +82,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/i9500/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
 	vendor/samsung/i9500/proprietary/lib/libakm.so:system/lib/libakm.so \
 	vendor/samsung/i9500/proprietary/lib/libsensirion_j1.so:system/lib/libsensirion_j1.so \
-	vendor/samsung/i9500/proprietary/bin/drmserver.samsung:system/bin/drmserver.samsung \
 	vendor/samsung/i9500/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
 	vendor/samsung/i9500/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
 	vendor/samsung/i9500/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
