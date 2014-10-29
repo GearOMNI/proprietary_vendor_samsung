@@ -147,6 +147,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/i9500/proprietary/etc/wifi/nvram_net.txt_semcosh:system/etc/wifi/nvram_net.txt_semcosh
 
 # Others
-PRODUCT_COPY_FILES += \	
+PRODUCT_COPY_FILES += \
 	vendor/samsung/i9500/proprietary/bin/insthk:system/bin/insthk \
 	vendor/samsung/i9500/proprietary/etc/srm.bin:system/etc/srm.bin
