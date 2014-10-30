@@ -53,7 +53,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/samsung/i9500/proprietary/bin/gpsd:system/bin/gpsd \
 	vendor/samsung/i9500/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
-	vendor/samsung/i9500/proprietary/lib/hw/gps.universal5410.so:system/lib/hw/gps.universal5410.so
+	vendor/samsung/i9500/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.universal5410.so
 
 # Display
 PRODUCT_COPY_FILES += \
