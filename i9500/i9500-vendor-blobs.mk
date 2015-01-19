@@ -24,7 +24,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/i9500/proprietary/vendor/firmware/bcm4335.hcd:system/vendor/firmware/bcm4335.hcd \
 	vendor/samsung/i9500/proprietary/vendor/firmware/bcm4335_A0.hcd:system/vendor/firmware/bcm4335_A0.hcd \
 	vendor/samsung/i9500/proprietary/vendor/firmware/bcm4335_murata.hcd:system/vendor/firmware/bcm4335_murata.hcd \
-	vendor/samsung/i9500/proprietary/vendor/firmware/bcm4335_semco.hcd:system/vendor/firmware/bcm4335_semco.hcd
+	vendor/samsung/i9500/proprietary/vendor/firmware/bcm4335_semco.hcd:system/vendor/firmware/bcm4335_semco.hcd \
+	vendor/samsung/i9500/proprietary/vendor/firmware/BT_FW_VER_BCM4335B0_002.001.006.0343.0347_ORC_JA-3G.hcd:system/vendor/firmware/BT_FW_VER_BCM4335B0_002.001.006.0343.0347_ORC_JA-3G.hcd
 
 # Camera
 PRODUCT_COPY_FILES += \
@@ -116,7 +117,11 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/i9500/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
 	vendor/samsung/i9500/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
 	vendor/samsung/i9500/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+	vendor/samsung/i9500/proprietary/vendor/lib/drm/libdivxplugin.so:system/vendor/lib/drm/libdivxplugin.so \
 	vendor/samsung/i9500/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+	vendor/samsung/i9500/proprietary/vendor/lib/drm/libprgenericplugin.so:system/vendor/lib/drm/libprgenericplugin.so \
+	vendor/samsung/i9500/proprietary/vendor/lib/drm/libomaplugin.so:system/vendor/lib/drm/libomaplugin.so \
+	vendor/samsung/i9500/proprietary/vendor/lib/drm/libplayreadyplugin.so:system/vendor/lib/drm/libplayreadyplugin.so \
 	vendor/samsung/i9500/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
 
 # Wi-Fi
@@ -147,5 +152,4 @@ PRODUCT_COPY_FILES += \
 
 # Others
 PRODUCT_COPY_FILES += \
-	vendor/samsung/i9500/proprietary/bin/insthk:system/bin/insthk \
 	vendor/samsung/i9500/proprietary/etc/srm.bin:system/etc/srm.bin
