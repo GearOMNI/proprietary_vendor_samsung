@@ -21,7 +21,10 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_COPY_FILES += \
-	vendor/samsung/i9500/proprietary/vendor/firmware/bcm4335_V0343.0347.hcd:system/vendor/firmware/bcm4335_V0343.0347.hcd
+	vendor/samsung/i9500/proprietary/vendor/firmware/bcm4335.hcd:system/vendor/firmware/bcm4335.hcd \
+	vendor/samsung/i9500/proprietary/vendor/firmware/bcm4335_A0.hcd:system/vendor/firmware/bcm4335_A0.hcd \
+	vendor/samsung/i9500/proprietary/vendor/firmware/bcm4335_murata.hcd:system/vendor/firmware/bcm4335_murata.hcd \
+	vendor/samsung/i9500/proprietary/vendor/firmware/bcm4335_semco.hcd:system/vendor/firmware/bcm4335_semco.hcd
 
 # Camera
 PRODUCT_COPY_FILES += \
@@ -31,7 +34,6 @@ PRODUCT_COPY_FILES += \
 
 # PowerVR GPU
 PRODUCT_COPY_FILES += \
-	vendor/samsung/i9500/proprietary/vendor/bin/pvrsrvctl:system/vendor/bin/pvrsrvctl \
 	vendor/samsung/i9500/proprietary/vendor/lib/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
 	vendor/samsung/i9500/proprietary/vendor/lib/libIMGegl.so:system/vendor/lib/libIMGegl.so \
 	vendor/samsung/i9500/proprietary/vendor/lib/liboclcompiler.so:system/vendor/lib/liboclcompiler.so \
@@ -78,13 +80,10 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/i9500/proprietary/vendor/firmware/mcRegistry/ffffffff000000000000000000000007.tlbin:system/vendor/firmware/mcRegistry/ffffffff000000000000000000000007.tlbin \
 	vendor/samsung/i9500/proprietary/vendor/firmware/mcRegistry/ffffffff000000000000000000000008.tlbin:system/vendor/firmware/mcRegistry/ffffffff000000000000000000000008.tlbin \
 	vendor/samsung/i9500/proprietary/vendor/firmware/mcRegistry/ffffffff000000000000000000000009.tlbin:system/vendor/firmware/mcRegistry/ffffffff000000000000000000000009.tlbin \
-	vendor/samsung/i9500/proprietary/vendor/firmware/mcRegistry/ffffffff000000000000000000000017.tlbin:system/vendor/firmware/mcRegistry/ffffffff000000000000000000000017.tlbin \
 	vendor/samsung/i9500/proprietary/vendor/firmware/mcRegistry/ffffffff00000000000000000000000a.tlbin:system/vendor/firmware/mcRegistry/ffffffff00000000000000000000000a.tlbin \
 	vendor/samsung/i9500/proprietary/vendor/firmware/mcRegistry/ffffffff00000000000000000000000b.tlbin:system/vendor/firmware/mcRegistry/ffffffff00000000000000000000000b.tlbin \
 	vendor/samsung/i9500/proprietary/vendor/firmware/mcRegistry/ffffffff00000000000000000000000f.tlbin:system/vendor/firmware/mcRegistry/ffffffff00000000000000000000000f.tlbin \
 	vendor/samsung/i9500/proprietary/vendor/firmware/mcRegistry/ffffffff000000000000000000000010.tlbin:system/vendor/firmware/mcRegistry/ffffffff000000000000000000000010.tlbin \
-	vendor/samsung/i9500/proprietary/vendor/firmware/mcRegistry/ffffffff00000000000000000000000c.tlbin:system/vendor/firmware/mcRegistry/ffffffff00000000000000000000000c.tlbin \
-	vendor/samsung/i9500/proprietary/vendor/firmware/mcRegistry/ffffffff00000000000000000000000d.tlbin:system/vendor/firmware/mcRegistry/ffffffff00000000000000000000000d.tlbin \
 	vendor/samsung/i9500/proprietary/vendor/firmware/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/vendor/firmware/mcRegistry/ffffffffd00000000000000000000004.tlbin \
 	vendor/samsung/i9500/proprietary/vendor/firmware/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/vendor/firmware/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
 	vendor/samsung/i9500/proprietary/bin/scranton_RD:system/bin/scranton_RD
@@ -112,17 +111,12 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/i9500/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
 	vendor/samsung/i9500/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
 	vendor/samsung/i9500/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
-	vendor/samsung/i9500/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
-	vendor/samsung/i9500/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-	vendor/samsung/i9500/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-	vendor/samsung/i9500/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
 	vendor/samsung/i9500/proprietary/vendor/lib/libdivxdrm.so:system/vendor/lib/libdivxdrm.so \
-	vendor/samsung/i9500/proprietary/vendor/lib/drm/libdivxplugin.so:system/vendor/lib/drm/libdivxplugin.so \
+	vendor/samsung/i9500/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
+	vendor/samsung/i9500/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+	vendor/samsung/i9500/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+	vendor/samsung/i9500/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
 	vendor/samsung/i9500/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-	vendor/samsung/i9500/proprietary/vendor/lib/drm/libfwdlockengine.so:system/vendor/lib/drm/libfwdlockengine.so \
-	vendor/samsung/i9500/proprietary/vendor/lib/drm/libomaplugin.so:system/vendor/lib/drm/libomaplugin.so \
-	vendor/samsung/i9500/proprietary/vendor/lib/drm/libplayreadyplugin.so:system/vendor/lib/drm/libplayreadyplugin.so \
-	vendor/samsung/i9500/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
 	vendor/samsung/i9500/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
 
 # Wi-Fi
@@ -153,4 +147,5 @@ PRODUCT_COPY_FILES += \
 
 # Others
 PRODUCT_COPY_FILES += \
+	vendor/samsung/i9500/proprietary/bin/insthk:system/bin/insthk \
 	vendor/samsung/i9500/proprietary/etc/srm.bin:system/etc/srm.bin

@@ -10,8 +10,8 @@ boardflags2=0x0
 boardflags3=0xb
 macaddr=00:90:4c:c5:12:38
 subband5gver=4
-ccode=CN
-regrev=38
+ccode=GB
+regrev=6
 antswitch=0
 pdgain5g=1
 pdgain2g=1
@@ -87,5 +87,3 @@ dot11agduplrpo=0x0
 muxenab=0x10
 #sd_gpout=0
 #sd_oobonly=1
-#For BTC call noise issue
-btc_params80=0

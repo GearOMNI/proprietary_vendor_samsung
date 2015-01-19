@@ -9,8 +9,8 @@ boardflags3=0x4
 #boardnum=57410 
 #(Serial Number)
 macaddr=00:90:4c:c5:12:38()
-ccode=CN
-regrev=38
+ccode=GB
+regrev=6
 antswitch=0
 pdgain5g=1
 pdgain2g=1
@@ -95,5 +95,3 @@ dot11agduplrpo=0
 muxenab=0x10
 #sd_gpout=0
 #sd_oobonly=1
-#For BTC call noise issue
-btc_params80=0
