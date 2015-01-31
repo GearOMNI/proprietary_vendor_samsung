@@ -21,11 +21,7 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_COPY_FILES += \
-	vendor/samsung/i9500/proprietary/vendor/firmware/bcm4335.hcd:system/vendor/firmware/bcm4335.hcd \
-	vendor/samsung/i9500/proprietary/vendor/firmware/bcm4335_A0.hcd:system/vendor/firmware/bcm4335_A0.hcd \
-	vendor/samsung/i9500/proprietary/vendor/firmware/bcm4335_murata.hcd:system/vendor/firmware/bcm4335_murata.hcd \
-	vendor/samsung/i9500/proprietary/vendor/firmware/bcm4335_semco.hcd:system/vendor/firmware/bcm4335_semco.hcd \
-	vendor/samsung/i9500/proprietary/vendor/firmware/BT_FW_VER_BCM4335B0_002.001.006.0343.0347_ORC_JA-3G.hcd:system/vendor/firmware/BT_FW_VER_BCM4335B0_002.001.006.0343.0347_ORC_JA-3G.hcd
+	vendor/samsung/i9500/proprietary/vendor/firmware/bcm4335_V0343.0347.hcd:system/vendor/firmware/bcm4335_V0343.0347.hcd
 
 # Camera
 PRODUCT_COPY_FILES += \
@@ -122,6 +118,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/i9500/proprietary/vendor/lib/drm/libprgenericplugin.so:system/vendor/lib/drm/libprgenericplugin.so \
 	vendor/samsung/i9500/proprietary/vendor/lib/drm/libomaplugin.so:system/vendor/lib/drm/libomaplugin.so \
 	vendor/samsung/i9500/proprietary/vendor/lib/drm/libplayreadyplugin.so:system/vendor/lib/drm/libplayreadyplugin.so \
+	vendor/samsung/i9500/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
 	vendor/samsung/i9500/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
 
 # Wi-Fi
