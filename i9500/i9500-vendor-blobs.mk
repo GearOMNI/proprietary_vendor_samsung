@@ -104,7 +104,6 @@ PRODUCT_COPY_FILES += \
 
 # XMM Modem RIL
 PRODUCT_COPY_FILES += \
-	vendor/samsung/i9500/proprietary/bin/cbd:system/bin/cbd \
 	vendor/samsung/i9500/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
 	vendor/samsung/i9500/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so
 
