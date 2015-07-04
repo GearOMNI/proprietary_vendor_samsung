@@ -64,9 +64,14 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/i9500/proprietary/vendor/firmware/setfile_gumi_imx135.bin:system/vendor/firmware/setfile_gumi_imx135.bin \
 	vendor/samsung/i9500/proprietary/vendor/firmware/setfile_sec_imx135.bin:system/vendor/firmware/setfile_sec_imx135.bin
 
+# Memtrack
+PRODUCT_COPY_FILES += \
+	vendor/samsung/i9500/proprietary/vendor/lib/hw/memtrack.exynos5.so:system/vendor/lib/hw/memtrack.exynos5.so
+
 # OMX
 PRODUCT_COPY_FILES += \
 	vendor/samsung/i9500/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
+	vendor/samsung/i9500/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
 	vendor/samsung/i9500/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
 	vendor/samsung/i9500/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
 	vendor/samsung/i9500/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
