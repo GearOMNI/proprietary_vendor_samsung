@@ -67,16 +67,6 @@ PRODUCT_COPY_FILES += \
 # Memtrack
 PRODUCT_COPY_FILES += \
 	vendor/samsung/i9500/proprietary/vendor/lib/hw/memtrack.exynos5.so:system/vendor/lib/hw/memtrack.exynos5.so
-
-# OMX
-#PRODUCT_COPY_FILES += \
-#	vendor/samsung/i9500/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
-#	vendor/samsung/i9500/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
-#	vendor/samsung/i9500/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
-#	vendor/samsung/i9500/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
-#	vendor/samsung/i9500/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
-#	vendor/samsung/i9500/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
-#	vendor/samsung/i9500/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so
 	
 # mcRegistry
 PRODUCT_COPY_FILES += \
@@ -148,7 +138,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/i9500/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
 	vendor/samsung/i9500/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
 	vendor/samsung/i9500/proprietary/etc/wifi/nvram_mfg.txt_a0:system/etc/wifi/nvram_mfg.txt_a0 \
-	vendor/samsung/i9500/proprietary/etc/wifi/nvram_mfg.txt_murata:system/etc/wifi/nvram_mfg.txt_murata \
 	vendor/samsung/i9500/proprietary/etc/wifi/nvram_mfg.txt_murata_a0:system/etc/wifi/nvram_mfg.txt_murata_a0 \
 	vendor/samsung/i9500/proprietary/etc/wifi/nvram_mfg.txt_muratafem1:system/etc/wifi/nvram_mfg.txt_muratafem1 \
 	vendor/samsung/i9500/proprietary/etc/wifi/nvram_mfg.txt_muratafem2:system/etc/wifi/nvram_mfg.txt_muratafem2 \
@@ -156,7 +145,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/i9500/proprietary/etc/wifi/nvram_mfg.txt_semcosh:system/etc/wifi/nvram_mfg.txt_semcosh \
 	vendor/samsung/i9500/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
 	vendor/samsung/i9500/proprietary/etc/wifi/nvram_net.txt_a0:system/etc/wifi/nvram_net.txt_a0 \
-	vendor/samsung/i9500/proprietary/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
 	vendor/samsung/i9500/proprietary/etc/wifi/nvram_net.txt_murata_a0:system/etc/wifi/nvram_net.txt_murata_a0 \
 	vendor/samsung/i9500/proprietary/etc/wifi/nvram_net.txt_muratafem1:system/etc/wifi/nvram_net.txt_muratafem1 \
 	vendor/samsung/i9500/proprietary/etc/wifi/nvram_net.txt_muratafem2:system/etc/wifi/nvram_net.txt_muratafem2 \
