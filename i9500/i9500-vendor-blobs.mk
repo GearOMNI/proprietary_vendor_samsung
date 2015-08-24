@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
 
 # PowerVR GPU
 PRODUCT_COPY_FILES += \
-	vendor/samsung/i9500/proprietary/vendor/bin/pvrsrvctl:system/vendor/bin/pvrsrvctl \
 	vendor/samsung/i9500/proprietary/vendor/lib/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
 	vendor/samsung/i9500/proprietary/vendor/lib/libIMGegl.so:system/vendor/lib/libIMGegl.so \
 	vendor/samsung/i9500/proprietary/vendor/lib/liboclcompiler.so:system/vendor/lib/liboclcompiler.so \
