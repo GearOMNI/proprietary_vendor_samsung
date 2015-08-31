@@ -25,7 +25,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_COPY_FILES += \
-	vendor/samsung/i9500/proprietary/lib/hw/camera.vendor.universal5410.so:system/lib/hw/camera.vendor.universal5410.so \
+	vendor/samsung/i9500/proprietary/lib/hw/camera.vendor.universal5410.so:system/lib/hw/camera.universal5410.so \
 	vendor/samsung/i9500/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
 	vendor/samsung/i9500/proprietary/lib/libvdis.so:system/lib/libvdis.so
 
