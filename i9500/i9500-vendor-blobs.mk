@@ -109,7 +109,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/i9500/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
 	vendor/samsung/i9500/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
 	vendor/samsung/i9500/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-	vendor/samsung/i9500/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
 	vendor/samsung/i9500/proprietary/vendor/lib/libdivxdrm.so:system/vendor/lib/libdivxdrm.so \
 	vendor/samsung/i9500/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
 	vendor/samsung/i9500/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
