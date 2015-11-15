@@ -27,8 +27,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/samsung/i9500/proprietary/lib/hw/camera.vendor.universal5410.so:system/lib/hw/camera.universal5410.so \
 	vendor/samsung/i9500/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
-	vendor/samsung/i9500/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
-	vendor/samsung/i9500/proprietary/lib/libexynosv4l2.so:obj/lib/libexynosv4l2.so \
 	vendor/samsung/i9500/proprietary/lib/libvdis.so:system/lib/libvdis.so
 
 # OMX
