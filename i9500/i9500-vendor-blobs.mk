@@ -20,7 +20,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/samsung/i9500/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
 	vendor/samsung/i9500/proprietary/lib/libvdis.so:system/lib/libvdis.so \
-	vendor/samsung/i9500/proprietary/lib/hw/camera.universal5410.so:system/lib/hw/camera.universal5410.so \
+	vendor/samsung/i9500/proprietary/lib/hw/camera.universal5410.so:system/lib/hw/camera.vendor.universal5410.so \
 	vendor/samsung/i9500/proprietary/vendor/firmware/setfile_6b2.bin:system/vendor/firmware/setfile_6b2.bin \
 	vendor/samsung/i9500/proprietary/vendor/firmware/setfile_gumi_imx135.bin:system/vendor/firmware/setfile_gumi_imx135.bin \
 	vendor/samsung/i9500/proprietary/vendor/firmware/setfile_sec_imx135.bin:system/vendor/firmware/setfile_sec_imx135.bin
