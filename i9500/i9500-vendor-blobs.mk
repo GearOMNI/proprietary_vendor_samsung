@@ -108,16 +108,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/i9500/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:system/vendor/firmware/bcm2079xB4_firmware.ncd \
 	vendor/samsung/i9500/proprietary/vendor/firmware/bcm2079xB4_pre_firmware.ncd:system/vendor/firmware/bcm2079xB4_pre_firmware.ncd
 
-# OMX
-PRODUCT_COPY_FILES += \
-	vendor/samsung/i9500/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
-	vendor/samsung/i9500/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
-	vendor/samsung/i9500/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
-	vendor/samsung/i9500/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
-	vendor/samsung/i9500/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
-	vendor/samsung/i9500/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
-	vendor/samsung/i9500/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so
-
 # RIL
 PRODUCT_COPY_FILES += \
 	vendor/samsung/i9500/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
