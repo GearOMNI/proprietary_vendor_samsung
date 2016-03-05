@@ -132,7 +132,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/i9500/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
 	vendor/samsung/i9500/proprietary/lib/libsensorhubcontext.so:system/lib/libsensorhubcontext.so \
 	vendor/samsung/i9500/proprietary/lib/libsensorhubservice.so:system/lib/libsensorhubservice.so \
-	vendor/samsung/i9500/proprietary/lib/hw/sensorshubs.universal5410.so:system/lib/hw/sensorshubs.universal5410.so \
+	vendor/samsung/i9500/proprietary/lib/hw/sensorhubs.universal5410.so:system/lib/hw/sensorhubs.universal5410.so \
 
 # Wi-Fi
 PRODUCT_COPY_FILES += \
