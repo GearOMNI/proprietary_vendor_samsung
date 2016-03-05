@@ -125,6 +125,15 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/i9500/proprietary/lib/libsensirion_j1.so:system/lib/libsensirion_j1.so \
 	vendor/samsung/i9500/proprietary/lib/hw/sensors.universal5410.so:system/lib/hw/sensors.universal5410.so \
 
+# Sensorhubs
+PRODUCT_COPY_FILES += \
+	vendor/samsung/i9500/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
+	vendor/samsung/i9500/proprietary/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so \
+	vendor/samsung/i9500/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
+	vendor/samsung/i9500/proprietary/lib/libsensorhubcontext.so:system/lib/libsensorhubcontext.so \
+	vendor/samsung/i9500/proprietary/lib/libsensorhubservice.so:system/lib/libsensorhubservice.so \
+	vendor/samsung/i9500/proprietary/lib/hw/sensorshubs.universal5410.so:system/lib/hw/sensorshubs.universal5410.so \
+
 # Wi-Fi
 PRODUCT_COPY_FILES += \
 	vendor/samsung/i9500/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
