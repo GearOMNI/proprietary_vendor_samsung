@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_COPY_FILES += \
 	vendor/samsung/i9500/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
-	vendor/samsung/i9500/proprietary/lib/libion_exynos.so:system/lib/libexy.so \
 	vendor/samsung/i9500/proprietary/lib/libvdis.so:system/lib/libvdis.so \
 	vendor/samsung/i9500/proprietary/lib/hw/camera.universal5410.so:system/lib/hw/camera.universal5410.so \
 	vendor/samsung/i9500/proprietary/vendor/firmware/setfile_6b2.bin:system/vendor/firmware/setfile_6b2.bin \
@@ -28,19 +27,10 @@ PRODUCT_COPY_FILES += \
 
 # DRM
 PRODUCT_COPY_FILES += \
-	vendor/samsung/i9500/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
-	vendor/samsung/i9500/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
-	vendor/samsung/i9500/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-	vendor/samsung/i9500/proprietary/vendor/lib/libdivxdrm.so:system/vendor/lib/libdivxdrm.so \
-	vendor/samsung/i9500/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
+	vendor/samsung/i9500/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
 	vendor/samsung/i9500/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
 	vendor/samsung/i9500/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
 	vendor/samsung/i9500/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-	vendor/samsung/i9500/proprietary/vendor/lib/drm/libdivxplugin.so:system/vendor/lib/drm/libdivxplugin.so \
-	vendor/samsung/i9500/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-	vendor/samsung/i9500/proprietary/vendor/lib/drm/libprgenericplugin.so:system/vendor/lib/drm/libprgenericplugin.so \
-	vendor/samsung/i9500/proprietary/vendor/lib/drm/libomaplugin.so:system/vendor/lib/drm/libomaplugin.so \
-	vendor/samsung/i9500/proprietary/vendor/lib/drm/libplayreadyplugin.so:system/vendor/lib/drm/libplayreadyplugin.so \
 	vendor/samsung/i9500/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
 	vendor/samsung/i9500/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
 
@@ -112,7 +102,6 @@ PRODUCT_COPY_FILES += \
 # OMX
 PRODUCT_COPY_FILES += \
 	vendor/samsung/i9500/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
-	vendor/samsung/i9500/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so
 
 # RIL
 PRODUCT_COPY_FILES += \
@@ -122,7 +111,6 @@ PRODUCT_COPY_FILES += \
 # Sensors
 PRODUCT_COPY_FILES += \
 	vendor/samsung/i9500/proprietary/lib/libakm.so:system/lib/libakm.so \
-	vendor/samsung/i9500/proprietary/lib/libsensirion_j1.so:system/lib/libsensirion_j1.so \
 	vendor/samsung/i9500/proprietary/lib/hw/sensors.universal5410.so:system/lib/hw/sensors.universal5410.so \
 
 # Sensorhubs
