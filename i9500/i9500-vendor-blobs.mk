@@ -27,6 +27,10 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/i9500/proprietary/vendor/firmware/setfile_gumi_imx135.bin:system/vendor/firmware/setfile_gumi_imx135.bin \
 	vendor/samsung/i9500/proprietary/vendor/firmware/setfile_sec_imx135.bin:system/vendor/firmware/setfile_sec_imx135.bin
 
+# ConsumerIR
+PRODUCT_COPY_FILES += \
+	vendor/samsung/i9500/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so
+
 # DRM
 PRODUCT_COPY_FILES += \
 	vendor/samsung/i9500/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
